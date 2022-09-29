@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css"/>
+    <title>Base de datos</title>
+</head>
+
+<body>
+    <section id="content">
+    <h1>Registro de datos</h1>
+    <form action="php.php" method="Post">
+        <p>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+
+        </p>
+
+        <p>
+            <label for="email" class="colocar_email">Email: </label>
+            <input type="email" name="email" id="email" required="obligatorio" placeholder="Escribe tu email">
+        </p>
+
+        <p>
+            <label for="Telefono" class="colocar_telefono">Telefono: </label>
+            <input type="number" name="telefono" id="telefono" required="obligatorio" placeholder="Escribe tu telefono">
+        </p>
+
+        <p>
+            <label for="sexo" class="colocar_sexo">Sexo: </label>
+            <input type="text" name="sexo" id="sexo" required="obligatorio" placeholder="Escribe tu sexo">
+        </p>
+        
+        <button class="btn" type="submit" name="registar" id="registrar" > <p><h4>Registrarse</h4></p></a></button>
+       <!--<button type="submit" name="registar" id="registrar"> <p>Registar Aqui </p></button> --> 
+
+    </form>
+    </section>
+
+</body>
+
+</html>
