@@ -4,11 +4,17 @@ body{
 
 
 #content{
-    float: center;
+   
     text-align: center;
-    min-height: 500px;
+    min-height: 200px;
+    width: 1000px;
     background-color: azure;
-    padding: 40px;
+    padding: 50px;
+    /*Centar el cuadro*/
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -23,6 +29,7 @@ body{
     padding: 10px 80px;
     color: black;
     text-decoration: none;
+    
   }
   
   .btn {/*centar el boton--------------------------------------------------------------------------------*/
