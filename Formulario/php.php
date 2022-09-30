@@ -16,14 +16,14 @@ if(!$con){
 
 
 //Usuario
-//iformacion
+//iformacion a agregar
 
 $nombre = $_POST["nombre"];
 $email = $_POST["email"];
 $telefono = $_POST["telefono"];
 $sexo = $_POST["sexo"];
 
-//Consulta
+//Consulta en la base de datos
 
 $inser = "INSERT INTO usuario(id, nombre, email, telefono, sexo)
     values ('0', '$nombre','$email','$telefono','$sexo')";
